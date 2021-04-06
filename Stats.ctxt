@@ -8,4 +8,6 @@ comment3.params=
 comment3.target=int\ mode()
 comment4.params=
 comment4.target=int\ standardDeviation()
-numComments=5
+comment5.params=
+comment5.target=int\ range()
+numComments=6

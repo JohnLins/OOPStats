@@ -30,6 +30,14 @@ public class StatsImplementation implements Stats
         return 0;
     }
     
+    public int range(){
+     PartsImplementation here = new PartsImplementation(list);
+     here.initMinMax();
+     System.out.println("Min: " + here.getMin()); 
+     System.out.println("Min: " + here.getMax()); 
+     return here.getMax() - here.getMin();   
+    }
+    
     
     
     
@@ -38,6 +46,7 @@ public class StatsImplementation implements Stats
         StatsImplementation mine = new StatsImplementation(myList);
         
         System.out.println(mine.mean());
+        System.out.println(mine.range());
         
     }
 }

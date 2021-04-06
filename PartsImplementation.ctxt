@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PartsImplementation
+comment1.params=l
+comment1.target=PartsImplementation(int[])
+comment2.params=
+comment2.target=void\ initMinMax()
+comment3.params=
+comment3.target=int\ getMin()
+comment4.params=
+comment4.target=int\ getMax()
+numComments=5

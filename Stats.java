@@ -1,11 +1,13 @@
 
 public interface Stats
 {
-    int mean();
+    public int mean();
     
-    int median();
+    public int median();
     
-    int mode();
+    public int mode();
     
-    int standardDeviation();
+    public int standardDeviation();
+    
+    public int range();
 }
