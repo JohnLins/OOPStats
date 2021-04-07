@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public interface Stats
 {
@@ -10,4 +11,6 @@ public interface Stats
     public int standardDeviation();
     
     public int range();
+    
+   
 }

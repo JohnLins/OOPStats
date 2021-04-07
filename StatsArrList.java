@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 public interface StatsArrList
 {
-    int mean(ArrayList<Integer> x);
+    public int meanList(ArrayList<Integer> x);
     
-    int median(ArrayList<Integer> x);
+    public int medianList(ArrayList<Integer> x);
     
-    int mode(ArrayList<Integer> x);
+    public int modeList(ArrayList<Integer> x);
     
-    int standardDeviation(ArrayList<Integer> x);
+    public int standardDeviationList(ArrayList<Integer> x);
 }

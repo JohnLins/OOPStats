@@ -6,4 +6,6 @@ comment2.params=
 comment2.target=int\ getMax()
 comment3.params=
 comment3.target=int\ getMin()
-numComments=4
+comment4.params=
+comment4.target=int[]\ selectionSort()
+numComments=5

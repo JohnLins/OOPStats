@@ -37,4 +37,21 @@ public class PartsImplementation implements Parts
     public int getMax(){
         return max;
     }
+    
+    public int[] selectionSort(){
+        int[] sorted = new int[list.length];
+        int minValue = list[0];
+        for(int i = 0; i < list.length; i++){
+            minValue = list[i];
+            for(int j = i; j < list.length; j++){
+                if(list[j] < minValue){
+                    minValue = list[j];
+                }
+                sorted[i] = minValue;
+                
+            }
+        }
+        
+        return sorted;
+    }
 }
