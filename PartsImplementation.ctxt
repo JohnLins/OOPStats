@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=PartsImplementation
 comment1.params=l
-comment1.target=PartsImplementation(int[])
+comment1.target=PartsImplementation(double[])
 comment2.params=
 comment2.target=void\ initMinMax()
 comment3.params=
-comment3.target=int\ getMin()
+comment3.target=double\ getMin()
 comment4.params=
-comment4.target=int\ getMax()
+comment4.target=double\ getMax()
 comment5.params=
-comment5.target=int[]\ selectionSort()
+comment5.target=double[]\ selectionSort()
 numComments=6

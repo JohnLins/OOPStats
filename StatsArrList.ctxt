@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=StatsArrList
 comment1.params=x
-comment1.target=int\ meanList(java.util.ArrayList)
+comment1.target=double\ meanList(java.util.ArrayList)
 comment2.params=x
-comment2.target=int\ medianList(java.util.ArrayList)
+comment2.target=double\ medianList(java.util.ArrayList)
 comment3.params=x
-comment3.target=int\ modeList(java.util.ArrayList)
+comment3.target=double\ modeList(java.util.ArrayList)
 comment4.params=x
-comment4.target=int\ standardDeviationList(java.util.ArrayList)
+comment4.target=double\ standardDeviationList(java.util.ArrayList)
 numComments=5

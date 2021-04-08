@@ -2,16 +2,16 @@
 public class PartsImplementation implements Parts
 {
     
-    private int[] list;
-    private int min;
-    private int max;
+    private double[] list;
+    private double min;
+    private double max;
     
-    public PartsImplementation(int[] l)
+    public PartsImplementation(double[] l)
     {
         list = l;
         
-        int min = list[0];
-        int max = list[0];
+        min = list[0];
+        max = list[0];
     }
 
 
@@ -30,17 +30,17 @@ public class PartsImplementation implements Parts
     }
     
     
-    public int getMin(){
+    public double getMin(){
         return min;
     }
     
-    public int getMax(){
+    public double getMax(){
         return max;
     }
     
-    public int[] selectionSort(){
-        int[] sorted = new int[list.length];
-        int minValue = list[0];
+    public double[] selectionSort(){
+        double[] sorted = new double[list.length];
+        double minValue = list[0];
         for(int i = 0; i < list.length; i++){
             minValue = list[i];
             for(int j = i; j < list.length; j++){

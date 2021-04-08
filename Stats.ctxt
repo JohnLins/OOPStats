@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Stats
 comment1.params=
-comment1.target=int\ mean()
+comment1.target=double\ mean()
 comment2.params=
-comment2.target=int\ median()
+comment2.target=double\ median()
 comment3.params=
-comment3.target=int\ mode()
+comment3.target=double\ mode()
 comment4.params=
-comment4.target=int\ standardDeviation()
+comment4.target=double\ standardDeviation()
 comment5.params=
-comment5.target=int\ range()
+comment5.target=double\ range()
 numComments=6

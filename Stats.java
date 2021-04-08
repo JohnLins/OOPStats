@@ -2,15 +2,15 @@ import java.util.ArrayList;
 
 public interface Stats
 {
-    public int mean();
+    public double mean();
     
-    public int median();
+    public double median();
     
-    public int mode();
+    public double mode();
     
-    public int standardDeviation();
+    public double standardDeviation();
     
-    public int range();
+    public double range();
     
    
 }

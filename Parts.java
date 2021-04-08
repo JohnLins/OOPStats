@@ -2,8 +2,8 @@
 public interface Parts
 {
     public void initMinMax();
-    public int getMax();
-    public int getMin();
+    public double getMax();
+    public double getMin();
     
-    public int[] selectionSort();
+    public double[] selectionSort();
 }
